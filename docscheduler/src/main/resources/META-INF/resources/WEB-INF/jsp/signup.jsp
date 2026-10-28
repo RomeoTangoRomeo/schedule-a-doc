@@ -121,10 +121,10 @@
     <div class="container">
         <h1>New User Signup</h1>
         <hr/>
-        <form action="/signup" method="post">
+        <form action="signup/process" method="post">
             <div>
                 <label for="fullName">Full Name</label>
-                <input type="text" id="fullName" name="fullName" required>
+                <input type="text" id="fullName" name="name" required>
             </div>
             <div>
                 <label for="email">Email</label>
